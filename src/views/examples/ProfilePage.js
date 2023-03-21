@@ -40,7 +40,7 @@ import {
   Row,
   Col,
   UncontrolledTooltip,
-  UncontrolledCarousel
+  UncontrolledCarousel,
 } from "reactstrap";
 
 // core components
@@ -51,18 +51,18 @@ const carouselItems = [
   {
     src: require("assets/img/denys.jpg"),
     altText: "Slide 1",
-    caption: "Big City Life, United States"
+    caption: "Big City Life, United States",
   },
   {
     src: require("assets/img/fabien-bazanegue.jpg"),
     altText: "Slide 2",
-    caption: "Somewhere Beyond, United States"
+    caption: "Somewhere Beyond, United States",
   },
   {
     src: require("assets/img/mark-finn.jpg"),
     altText: "Slide 3",
-    caption: "Stocks, United States"
-  }
+    caption: "Stocks, United States",
+  },
 ];
 
 let ps = null;
@@ -166,13 +166,13 @@ export default function ProfilePage() {
                   </CardHeader>
                   <CardBody>
                     <Nav
-                      className="nav-tabs-primary justify-content-center"
+                      className="nav-tabs-warning justify-content-center"
                       tabs
                     >
                       <NavItem>
                         <NavLink
                           className={classnames({
-                            active: tabs === 1
+                            active: tabs === 1,
                           })}
                           onClick={(e) => {
                             e.preventDefault();
@@ -186,7 +186,7 @@ export default function ProfilePage() {
                       <NavItem>
                         <NavLink
                           className={classnames({
-                            active: tabs === 2
+                            active: tabs === 2,
                           })}
                           onClick={(e) => {
                             e.preventDefault();
@@ -200,7 +200,7 @@ export default function ProfilePage() {
                       <NavItem>
                         <NavLink
                           className={classnames({
-                            active: tabs === 3
+                            active: tabs === 3,
                           })}
                           onClick={(e) => {
                             e.preventDefault();
@@ -269,7 +269,7 @@ export default function ProfilePage() {
                         </Row>
                         <Button
                           className="btn-simple btn-icon btn-round float-right"
-                          color="primary"
+                          color="warning"
                           type="submit"
                         >
                           <i className="tim-icons icon-send" />
@@ -323,7 +323,7 @@ export default function ProfilePage() {
                 <div className="btn-wrapper pt-3">
                   <Button
                     className="btn-simple"
-                    color="primary"
+                    color="warning"
                     href="#pablo"
                     onClick={(e) => e.preventDefault()}
                   >
@@ -391,7 +391,7 @@ export default function ProfilePage() {
                       </Row>
                       <Button
                         className="btn-round float-right"
-                        color="primary"
+                        color="warning"
                         data-placement="right"
                         id="tooltip341148792"
                         type="button"

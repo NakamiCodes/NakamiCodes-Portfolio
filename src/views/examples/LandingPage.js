@@ -30,7 +30,7 @@ import {
   ListGroup,
   Container,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 // core components
@@ -511,7 +511,7 @@ export default function LandingPage() {
                     </Row>
                   </CardBody>
                   <CardFooter className="text-center">
-                    <Button className="btn-simple" color="primary">
+                    <Button className="btn-simple" color="warning">
                       Get plan
                     </Button>
                   </CardFooter>

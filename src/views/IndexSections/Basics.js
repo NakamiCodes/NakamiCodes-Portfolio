@@ -32,27 +32,27 @@ import {
   InputGroup,
   Container,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 export default function Basics() {
   const [inputFocus, setInputFocus] = React.useState(false);
-  const slider1 = React.useRef(null);
-  const slider2 = React.useRef(null);
-  React.useEffect(() => {
-    Slider.create(slider1.current, {
-      start: [40],
-      connect: [true, false],
-      step: 1,
-      range: { min: 0, max: 100 }
-    });
-    Slider.create(slider2.current, {
-      start: [20, 60],
-      connect: [false, true, false],
-      step: 1,
-      range: { min: 0, max: 100 }
-    });
-  }, []);
+  // const slider1 = React.useRef(null);
+  // const slider2 = React.useRef(null);
+  // React.useEffect(() => {
+  //   Slider.create(slider1.current, {
+  //     start: [40],
+  //     connect: [true, false],
+  //     step: 1,
+  //     range: { min: 0, max: 100 },
+  //   });
+  //   Slider.create(slider2.current, {
+  //     start: [20, 60],
+  //     connect: [false, true, false],
+  //     step: 1,
+  //     range: { min: 0, max: 100 },
+  //   });
+  // }, []);
   return (
     <div className="section section-basic" id="basic-elements">
       <img alt="..." className="path" src={require("assets/img/path1.png")} />
@@ -62,26 +62,26 @@ export default function Basics() {
         <p className="category">Pick your style</p>
         <Row>
           <Col md="10">
-            <Button color="primary" type="button">
+            <Button color="warning" type="button">
               Default
             </Button>
-            <Button className="btn-round" color="primary" type="button">
+            <Button className="btn-round" color="warning" type="button">
               Round
             </Button>
-            <Button className="btn-round" color="primary" type="button">
+            <Button className="btn-round" color="warning" type="button">
               <i className="tim-icons icon-heart-2" />
               With Icon
             </Button>
             <Button
               className="btn-icon btn-round"
-              color="primary"
+              color="warning"
               type="button"
             >
               <i className="tim-icons icon-heart-2" />
             </Button>
             <Button
               className="btn-simple btn-round"
-              color="primary"
+              color="warning"
               type="button"
             >
               Simple
@@ -91,11 +91,11 @@ export default function Basics() {
         <p className="category">Pick your size</p>
         <Row>
           <Col md="10">
-            <Button color="primary" size="sm">
+            <Button color="warning" size="sm">
               Small
             </Button>
-            <Button color="primary">Regular</Button>
-            <Button color="primary" size="lg">
+            <Button color="warning">Regular</Button>
+            <Button color="warning" size="lg">
               Large
             </Button>
           </Col>
@@ -104,7 +104,7 @@ export default function Basics() {
         <Row>
           <Col md="12">
             <Button color="default">Default</Button>
-            <Button color="primary">Primary</Button>
+            <Button color="warning">Primary</Button>
             <Button color="info">Info</Button>
             <Button color="success">Success</Button>
             <Button color="warning">Warning</Button>
@@ -119,7 +119,7 @@ export default function Basics() {
         <Row>
           <Col md="8">
             <Button color="link">Default</Button>
-            <Button className="btn-link" color="primary">
+            <Button className="btn-link" color="warning">
               Primary
             </Button>
             <Button className="btn-link" color="info">
@@ -167,7 +167,7 @@ export default function Basics() {
             <Col lg="3" sm="6">
               <InputGroup
                 className={classnames({
-                  "input-group-focus": inputFocus
+                  "input-group-focus": inputFocus,
                 })}
               >
                 <InputGroupAddon addonType="prepend">
@@ -289,12 +289,12 @@ export default function Basics() {
             <br />
             <CustomInput type="switch" id="switch-2" label="With label" />
           </Col>
-          <Col lg="3" sm="6">
+          {/* <Col lg="3" sm="6">
             <p className="category">Sliders</p>
             <div className="slider" ref={slider1} />
             <br />
             <div className="slider slider-info mb-3" ref={slider2} />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </div>

@@ -36,7 +36,7 @@ import {
   InputGroup,
   Container,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 export default function Signup() {
@@ -64,7 +64,7 @@ export default function Signup() {
               System.
             </p>
             <div className="btn-wrapper">
-              <Button color="primary" to="register-page" tag={Link}>
+              <Button color="warning" to="register-page" tag={Link}>
                 Register Page
               </Button>
             </div>
@@ -82,7 +82,7 @@ export default function Signup() {
                 <Form className="form">
                   <InputGroup
                     className={classnames({
-                      "input-group-focus": fullNameFocus
+                      "input-group-focus": fullNameFocus,
                     })}
                   >
                     <InputGroupAddon addonType="prepend">
@@ -99,7 +99,7 @@ export default function Signup() {
                   </InputGroup>
                   <InputGroup
                     className={classnames({
-                      "input-group-focus": emailFocus
+                      "input-group-focus": emailFocus,
                     })}
                   >
                     <InputGroupAddon addonType="prepend">
@@ -116,7 +116,7 @@ export default function Signup() {
                   </InputGroup>
                   <InputGroup
                     className={classnames({
-                      "input-group-focus": passwordFocus
+                      "input-group-focus": passwordFocus,
                     })}
                   >
                     <InputGroupAddon addonType="prepend">
@@ -144,7 +144,7 @@ export default function Signup() {
                 </Form>
               </CardBody>
               <CardFooter>
-                <Button className="btn-round" color="primary" size="lg">
+                <Button className="btn-round" color="warning" size="lg">
                   Get Started
                 </Button>
               </CardFooter>

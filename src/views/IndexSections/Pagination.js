@@ -29,7 +29,7 @@ import {
   Progress,
   Container,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 export default function PaginationSection() {
@@ -64,7 +64,7 @@ export default function PaginationSection() {
               <NavItem>
                 <NavLink
                   className={classnames({
-                    "active show": pills === 1
+                    "active show": pills === 1,
                   })}
                   onClick={(e) => setPills(2)}
                   href="#pablo"
@@ -76,7 +76,7 @@ export default function PaginationSection() {
               <NavItem>
                 <NavLink
                   className={classnames({
-                    "active show": pills === 2
+                    "active show": pills === 2,
                   })}
                   onClick={(e) => setPills(2)}
                   href="#pablo"
@@ -88,7 +88,7 @@ export default function PaginationSection() {
               <NavItem>
                 <NavLink
                   className={classnames({
-                    "active show": pills === 3
+                    "active show": pills === 3,
                   })}
                   onClick={(e) => setPills(3)}
                   href="#pablo"
@@ -206,7 +206,7 @@ export default function PaginationSection() {
             <br />
             <h3 className="mb-5">Labels</h3>
             <Badge className="badge-default">Default</Badge>
-            <Badge color="primary">Primary</Badge>
+            <Badge color="warning">Primary</Badge>
             <Badge color="success">Success</Badge>
             <Badge color="info">Info</Badge>
             <Badge color="warning">Warning</Badge>

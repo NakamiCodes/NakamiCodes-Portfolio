@@ -29,7 +29,7 @@ import {
   Container,
   Row,
   Col,
-  UncontrolledTooltip
+  UncontrolledTooltip,
 } from "reactstrap";
 
 export default function ExamplesNavbar() {
@@ -70,11 +70,11 @@ export default function ExamplesNavbar() {
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" id="navbar-brand" tag={Link}>
-            <span>BLK• </span>
-            Design System React
+            <span>Nakami </span>
+            Hope-Felix
           </NavbarBrand>
           <UncontrolledTooltip placement="bottom" target="navbar-brand">
-            Designed and Coded by Creative Tim
+            Created By Nakami Hope-Felix
           </UncontrolledTooltip>
           <button
             aria-expanded={collapseOpen}
@@ -151,7 +151,7 @@ export default function ExamplesNavbar() {
             <NavItem>
               <Button
                 className="nav-link d-none d-lg-block"
-                color="primary"
+                color="warning"
                 target="_blank"
                 href="https://www.creative-tim.com/product/blk-design-system-pro-react?ref=bdsr-examples-navbar-upgrade-pro"
               >

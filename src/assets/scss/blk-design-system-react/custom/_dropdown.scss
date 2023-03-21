@@ -194,7 +194,7 @@
     }
 
     &.dropdown-primary {
-        @include dropdown-colors(darken($primary, 3%),$opacity-8,$white, $opacity-2);
+        @include dropdown-colors(darken($warning, 3%),$opacity-8,$white, $opacity-2);
     }
 
     &.dropdown-info {

@@ -25,7 +25,7 @@ export default function Notifications() {
       <Container>
         <div className="space" />
         <h3>Notifications</h3>
-        <UncontrolledAlert className="alert-with-icon" color="primary">
+        <UncontrolledAlert className="alert-with-icon" color="warning">
           <span data-notify="icon" className="tim-icons icon-coins" />
           <span>
             <b>Congrats! -</b>

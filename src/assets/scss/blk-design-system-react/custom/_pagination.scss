@@ -41,7 +41,7 @@
         &,
         &:focus,
         &:hover{
-          @include diagonal-gradient($primary, $primary-states);
+          @include diagonal-gradient($warning, $primary-states);
 
             color: $white;
         }
@@ -77,7 +77,7 @@
             &,
             &:focus,
             &:hover{
-              @include diagonal-gradient($primary, $primary-states);
+              @include diagonal-gradient($warning, $primary-states);
 
             }
         }

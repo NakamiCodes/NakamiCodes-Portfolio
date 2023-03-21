@@ -33,7 +33,7 @@ import {
   Container,
   Row,
   Col,
-  UncontrolledTooltip
+  UncontrolledTooltip,
 } from "reactstrap";
 
 export default function IndexNavbar() {
@@ -75,7 +75,11 @@ export default function IndexNavbar() {
       .scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <Navbar className={"fixed-top " + color} color-on-scroll="100" expand="lg">
+    <Navbar
+      className={"fixed-top bg-warning"}
+      color-on-scroll="100"
+      expand="lg"
+    >
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
@@ -191,7 +195,7 @@ export default function IndexNavbar() {
             <NavItem>
               <Button
                 className="nav-link d-none d-lg-block"
-                color="primary"
+                color="warning"
                 target="_blank"
                 href="https://www.creative-tim.com/product/blk-design-system-pro-react?ref=bdsr-user-archive-index-navbar-upgrade-pro"
               >

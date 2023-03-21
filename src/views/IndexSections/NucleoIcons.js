@@ -37,7 +37,7 @@ export default function NucleoIcons() {
             <div className="btn-wrapper">
               <Button
                 className="btn-round"
-                color="primary"
+                color="warning"
                 href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/icons"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -46,7 +46,7 @@ export default function NucleoIcons() {
               </Button>
               <Button
                 className="btn-simple btn-round"
-                color="primary"
+                color="warning"
                 href="https://nucleoapp.com/?ref=1712"
                 rel="noopener noreferrer"
                 size="lg"
@@ -79,7 +79,7 @@ export default function NucleoIcons() {
               <i className="icon tim-icons icon-tap-02" />
               <i className="icon tim-icons icon-wallet-43" />
             </div>
-            <span className="blur-hidden h5 text-primary">
+            <span className="blur-hidden h5 text-warning">
               Eplore all the 21.000+ Nucleo Icons
             </span>
           </a>

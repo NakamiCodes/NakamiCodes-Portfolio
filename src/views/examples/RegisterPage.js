@@ -35,7 +35,7 @@ import {
   InputGroup,
   Container,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 // core components
@@ -107,7 +107,7 @@ export default function RegisterPage() {
                       <Form className="form">
                         <InputGroup
                           className={classnames({
-                            "input-group-focus": fullNameFocus
+                            "input-group-focus": fullNameFocus,
                           })}
                         >
                           <InputGroupAddon addonType="prepend">
@@ -124,7 +124,7 @@ export default function RegisterPage() {
                         </InputGroup>
                         <InputGroup
                           className={classnames({
-                            "input-group-focus": emailFocus
+                            "input-group-focus": emailFocus,
                           })}
                         >
                           <InputGroupAddon addonType="prepend">
@@ -141,7 +141,7 @@ export default function RegisterPage() {
                         </InputGroup>
                         <InputGroup
                           className={classnames({
-                            "input-group-focus": passwordFocus
+                            "input-group-focus": passwordFocus,
                           })}
                         >
                           <InputGroupAddon addonType="prepend">
@@ -172,7 +172,7 @@ export default function RegisterPage() {
                       </Form>
                     </CardBody>
                     <CardFooter>
-                      <Button className="btn-round" color="primary" size="lg">
+                      <Button className="btn-round" color="warning" size="lg">
                         Get Started
                       </Button>
                     </CardFooter>

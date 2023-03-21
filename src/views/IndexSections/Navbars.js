@@ -30,7 +30,7 @@ import {
   Nav,
   Container,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 export default function Navbars() {
@@ -41,7 +41,7 @@ export default function Navbars() {
         <Row>
           <Col md="6">
             <h4>Menu</h4>
-            <Navbar className="bg-primary" expand="lg">
+            <Navbar className="bg-warning" expand="lg">
               <Container>
                 <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
                   Menu
@@ -206,7 +206,7 @@ export default function Navbars() {
       <div id="navbar">
         <div className="navigation-example">
           {/* Navbar Primary */}
-          <Navbar className="bg-primary" expand="lg">
+          <Navbar className="bg-warning" expand="lg">
             <Container>
               <div className="navbar-translate">
                 <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>

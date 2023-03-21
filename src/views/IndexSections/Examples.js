@@ -37,7 +37,7 @@ export default function Examples() {
             </Link>
             <Button
               className="btn-simple btn-round"
-              color="primary"
+              color="warning"
               to="landing-page"
               tag={Link}
             >
@@ -54,7 +54,7 @@ export default function Examples() {
             </Link>
             <Button
               className="btn-simple btn-round"
-              color="primary"
+              color="warning"
               to="profile-page"
               tag={Link}
             >

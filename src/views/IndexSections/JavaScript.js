@@ -38,25 +38,25 @@ import {
   InputGroupAddon,
   InputGroupText,
   Label,
-  UncontrolledCarousel
+  UncontrolledCarousel,
 } from "reactstrap";
 
 const carouselItems = [
   {
     src: require("assets/img/denys.jpg"),
     altText: "Slide 1",
-    caption: ""
+    caption: "",
   },
   {
     src: require("assets/img/fabien-bazanegue.jpg"),
     altText: "Slide 2",
-    caption: ""
+    caption: "",
   },
   {
     src: require("assets/img/mark-finn.jpg"),
     altText: "Slide 3",
-    caption: ""
-  }
+    caption: "",
+  },
 ];
 
 export default function JavaScript() {
@@ -78,7 +78,7 @@ export default function JavaScript() {
         <h4 className="mb-5">Modal</h4>
         <Row id="modals">
           <Col md="4">
-            <Button color="primary" onClick={() => setDemoModal(true)}>
+            <Button color="warning" onClick={() => setDemoModal(true)}>
               Launch Modal
             </Button>
           </Col>
@@ -197,7 +197,7 @@ export default function JavaScript() {
                 <FormGroup className="mb-3">
                   <InputGroup
                     className={classnames("input-group-alternative", {
-                      "input-group-focus": emailFocus
+                      "input-group-focus": emailFocus,
                     })}
                   >
                     <InputGroupAddon addonType="prepend">
@@ -216,7 +216,7 @@ export default function JavaScript() {
                 <FormGroup>
                   <InputGroup
                     className={classnames("input-group-alternative", {
-                      "input-group-focus": passwordFocus
+                      "input-group-focus": passwordFocus,
                     })}
                   >
                     <InputGroupAddon addonType="prepend">
@@ -240,7 +240,7 @@ export default function JavaScript() {
                   </Label>
                 </FormGroup>
                 <div className="text-center">
-                  <Button className="my-4" color="primary" type="button">
+                  <Button className="my-4" color="warning" type="button">
                     Sign in
                   </Button>
                 </div>
@@ -259,7 +259,7 @@ export default function JavaScript() {
                 <ReactDatetime
                   inputProps={{
                     className: "form-control",
-                    placeholder: "Date Picker Here"
+                    placeholder: "Date Picker Here",
                   }}
                 />
               </FormGroup>
@@ -325,7 +325,7 @@ export default function JavaScript() {
             </UncontrolledPopover>
             <Button
               color="default"
-              data-color="primary"
+              data-color="warning"
               data-container="body"
               data-content="Here will be some very useful information about his popover."
               data-placement="left"
