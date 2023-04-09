@@ -1,0 +1,11 @@
+<Basics />
+          <Navbars />
+          <Tabs />
+          <Pagination />
+          <Notifications />
+          <Typography />
+          <JavaScript />
+          <NucleoIcons />
+          <Signup />
+          <Examples />
+          <Download />

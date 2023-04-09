@@ -7155,6 +7155,7 @@ button.bg-darker:focus {
   }
   .d-sm-block {
     display: block !important;
+    text-shadow:2px 2px 4px #000000 ;
   }
   .d-sm-table {
     display: table !important;
@@ -18628,6 +18629,70 @@ textarea.form-control:active {
   opacity: 0.1;
 }
 
+.index-page .squares.square10 {
+  animation: move-left-right 4s infinite;
+  height: 300px;
+  width: 300px;
+  opacity: 0.5;
+  left: 3%;
+  top: -21%;
+}
+
+.index-page .squares.square11 {
+  animation: move-left-right 4s infinite;
+  height: 300px;
+  width: 300px;
+  opacity: 0.5;
+  left: 3%;
+  top: -21%;
+}
+
+.index-page .squares.square12 {
+  animation: move-left-right 4s infinite;
+  height: 300px;
+  width: 300px;
+  opacity: 0.5;
+  left: 3%;
+  top: -21%;
+}
+
+.index-page .squares.square13 {
+  animation: move-left-right 4s infinite;
+  height: 300px;
+  width: 300px;
+  opacity: 0.5;
+  left: 3%;
+  top: -21%;
+}
+
+.index-page .squares.square14 {
+  animation: move-left-right 4s infinite;
+  height: 300px;
+  width: 300px;
+  opacity: 0.5;
+  left: 3%;
+  top: -21%;
+}
+
+.index-page .squares.square15 {
+  animation: move-left-right 4s infinite;
+  height: 300px;
+  width: 300px;
+  opacity: 0.5;
+  left: 3%;
+  top: -21%;
+}
+
+.index-page .squares.square16 {
+  animation: move-left-right 4s infinite;
+  height: 300px;
+  width: 300px;
+  opacity: 0.5;
+  left: 3%;
+  top: -21%;
+}
+
+
 .landing-page {
   overflow-x: hidden;
 }
@@ -18989,6 +19054,70 @@ textarea.form-control:active {
   top: 400px;
   opacity: 0.4;
 }
+
+.register-page .square-10 {
+  height: 300px;
+  width: 300px;
+  background-image: url("../../../../assets/img/square1.png");
+  top: 175px;
+  right: 150px;
+  opacity: 0.8;
+}
+
+.register-page .square-11 {
+  height: 300px;
+  width: 300px;
+  background-image: url("../../../../assets/img/square1.png");
+  top: 175px;
+  right: 150px;
+  opacity: 0.8;
+}
+
+.register-page .square-12 {
+  height: 300px;
+  width: 300px;
+  background-image: url("../../../../assets/img/square1.png");
+  top: 175px;
+  right: 150px;
+  opacity: 0.8;
+}
+
+.register-page .square-13 {
+  height: 300px;
+  width: 300px;
+  background-image: url("../../../../assets/img/square1.png");
+  top: 175px;
+  right: 150px;
+  opacity: 0.8;
+}
+
+.register-page .square-14 {
+  height: 300px;
+  width: 300px;
+  background-image: url("../../../../assets/img/square1.png");
+  top: 175px;
+  right: 150px;
+  opacity: 0.8;
+}
+
+.register-page .square-15 {
+  height: 300px;
+  width: 300px;
+  background-image: url("../../../../assets/img/square1.png");
+  top: 175px;
+  right: 150px;
+  opacity: 0.8;
+}
+
+.register-page .square-16 {
+  height: 300px;
+  width: 300px;
+  background-image: url("../../../../assets/img/square1.png");
+  top: 175px;
+  right: 150px;
+  opacity: 0.8;
+}
+
 
 .index-page,
 .landing-page,
@@ -19750,6 +19879,77 @@ hr.line-deafult {
   opacity: 0.8;
   animation-duration: 9s;
 }
+
+.section-signup .square-10 {
+  height: 300px;
+  width: 300px;
+  background-image: url("../../../../assets/img/square1.png");
+  top: 80px;
+  left: 100px;
+  opacity: 0.3;
+  animation-duration: 5s;
+}
+
+.section-signup .square-11 {
+  height: 300px;
+  width: 300px;
+  background-image: url("../../../../assets/img/square1.png");
+  top: 80px;
+  left: 100px;
+  opacity: 0.3;
+  animation-duration: 5s;
+}
+
+.section-signup .square-12 {
+  height: 300px;
+  width: 300px;
+  background-image: url("../../../../assets/img/square1.png");
+  top: 80px;
+  left: 100px;
+  opacity: 0.3;
+  animation-duration: 5s;
+}
+
+.section-signup .square-13 {
+  height: 300px;
+  width: 300px;
+  background-image: url("../../../../assets/img/square1.png");
+  top: 80px;
+  left: 100px;
+  opacity: 0.3;
+  animation-duration: 5s;
+}
+
+.section-signup .square-14 {
+  height: 300px;
+  width: 300px;
+  background-image: url("../../../../assets/img/square1.png");
+  top: 80px;
+  left: 100px;
+  opacity: 0.3;
+  animation-duration: 5s;
+}
+
+.section-signup .square-15 {
+  height: 300px;
+  width: 300px;
+  background-image: url("../../../../assets/img/square1.png");
+  top: 80px;
+  left: 100px;
+  opacity: 0.3;
+  animation-duration: 5s;
+}
+
+.section-signup .square-16 {
+  height: 300px;
+  width: 300px;
+  background-image: url("../../../../assets/img/square1.png");
+  top: 80px;
+  left: 100px;
+  opacity: 0.3;
+  animation-duration: 5s;
+}
+
 
 .parallax-s {
   overflow: hidden;
@@ -22794,7 +22994,7 @@ input.datetimepicker[data-color="yellow"]
 .text-on-back {
   position: relative;
   z-index: 1;
-  font-size: 9.5em;
+  font-size: 5.5em;
   margin-left: -4px;
   font-weight: 900;
   color: rgba(255, 255, 255, 0.2) !important;

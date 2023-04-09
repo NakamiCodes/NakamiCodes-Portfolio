@@ -311,7 +311,7 @@ export default function ProfilePage() {
                 </Row>
               </Col>
               <Col md="5">
-                <h1 className="profile-title text-left">Projects</h1>
+                {/* <h1 className="profile-title text-left">Projects</h1> */}
                 <h5 className="text-on-back">02</h5>
                 <p className="profile-description text-left">
                   An artist of considerable range, Ryan — the name taken by

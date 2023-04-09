@@ -83,12 +83,12 @@ export default function IndexNavbar() {
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
-            <span>BLK• </span>
-            Design System React
+            <span>NakamiKodes • </span>
+            Web Devloper
           </NavbarBrand>
-          <UncontrolledTooltip placement="bottom" target="navbar-brand">
+          {/* <UncontrolledTooltip placement="bottom" target="navbar-brand">
             Designed and Coded by Creative Tim
-          </UncontrolledTooltip>
+          </UncontrolledTooltip> */}
           <button
             aria-expanded={collapseOpen}
             className="navbar-toggler navbar-toggler"
@@ -128,7 +128,7 @@ export default function IndexNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://twitter.com/CreativeTim"
+                href="https://twitter.com/Nuckaahf"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="Follow us on Twitter"
@@ -140,29 +140,29 @@ export default function IndexNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim"
+                href="https://github.com/NakamiCodes"
                 rel="noopener noreferrer"
                 target="_blank"
-                title="Like us on Facebook"
+                title="Follow Me On GitHub!"
               >
-                <i className="fab fa-facebook-square" />
-                <p className="d-lg-none d-xl-none">Facebook</p>
+                <i className="fab fa-github-square" />
+                <p className="d-lg-none d-xl-none">Github</p>
               </NavLink>
             </NavItem>
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial"
+                href="https://www.instagram.com/kallme_kami/"
                 rel="noopener noreferrer"
                 target="_blank"
-                title="Follow us on Instagram"
+                title="Follow me on Instagram"
               >
                 <i className="fab fa-instagram" />
                 <p className="d-lg-none d-xl-none">Instagram</p>
               </NavLink>
             </NavItem>
             <UncontrolledDropdown nav>
-              <DropdownToggle
+              {/* <DropdownToggle
                 caret
                 color="default"
                 data-toggle="dropdown"
@@ -171,9 +171,9 @@ export default function IndexNavbar() {
                 onClick={(e) => e.preventDefault()}
               >
                 <i className="fa fa-cogs d-lg-none d-xl-none" />
-                Getting started
-              </DropdownToggle>
-              <DropdownMenu className="dropdown-with-icons">
+                Dropdown
+              </DropdownToggle> */}
+              {/* <DropdownMenu className="dropdown-with-icons">
                 <DropdownItem href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/overview">
                   <i className="tim-icons icon-paper" />
                   Documentation
@@ -190,25 +190,26 @@ export default function IndexNavbar() {
                   <i className="tim-icons icon-single-02" />
                   Profile Page
                 </DropdownItem>
-              </DropdownMenu>
+              </DropdownMenu> */}
             </UncontrolledDropdown>
-            <NavItem>
+            {/* <NavItem>
               <Button
                 className="nav-link d-none d-lg-block"
                 color="warning"
                 target="_blank"
                 href="https://www.creative-tim.com/product/blk-design-system-pro-react?ref=bdsr-user-archive-index-navbar-upgrade-pro"
               >
-                <i className="tim-icons icon-spaceship" /> Upgrade to PRO
+                <i className="tim-icons icon-spaceship" /> Speacial Link Button
               </Button>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <Button
                 className="nav-link d-none d-lg-block"
                 color="default"
-                onClick={scrollToDownload}
+                href="https://docs.google.com/document/d/1PRYwesHYqskW11MuaA9gmJLShb9si1avQ4iXAkWN7lc/edit?usp=sharing"
+                // onClick={scrollToDownload}
               >
-                <i className="tim-icons icon-cloud-download-93" /> Download
+                <i className="tim-icons icon-cloud-download-93" /> Resume
               </Button>
             </NavItem>
           </Nav>

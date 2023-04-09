@@ -34,6 +34,8 @@ import NucleoIcons from "views/IndexSections/NucleoIcons.js";
 import Signup from "views/IndexSections/Signup.js";
 import Examples from "views/IndexSections/Examples.js";
 import Download from "views/IndexSections/Download.js";
+import Projects from "./IndexSections/Projetcs";
+import Contact from "./IndexSections/Contact";
 
 export default function Index() {
   React.useEffect(() => {
@@ -48,20 +50,11 @@ export default function Index() {
       <IndexNavbar />
       <div className="wrapper">
         <PageHeader />
-        <div className="main">
-          <Basics />
-          <Navbars />
-          <Tabs />
-          <Pagination />
-          <Notifications />
-          <Typography />
-          <JavaScript />
-          <NucleoIcons />
-          <Signup />
-          <Examples />
-          <Download />
-        </div>
-        <Footer />
+        <div className="main"></div>
+        <Projects />
+        {/* <Contact /> */}
+        <Signup></Signup>
+        {/* <Footer /> */}
       </div>
     </>
   );
