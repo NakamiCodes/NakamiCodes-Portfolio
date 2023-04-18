@@ -167,6 +167,10 @@ $tumblr-states:         lighten($tumblr, 6%) !default;
 $behance:               #1769ff !default;
 $behance-states:        lighten($behance, 6%) !default;
 
+@function theme-color($key) {
+  @return map-get($theme-colors, $key);
+}
+
 $theme-colors: () !default;
 $theme-colors: map-merge((
   "default":      $default,

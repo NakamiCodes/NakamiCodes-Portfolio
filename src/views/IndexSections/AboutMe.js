@@ -1,31 +1,7 @@
-import {
-  Button,
-  Card,
-  CardHeader,
-  CardBody,
-  Label,
-  FormGroup,
-  Form,
-  Input,
-  FormText,
-  NavItem,
-  NavLink,
-  Nav,
-  Table,
-  TabContent,
-  TabPane,
-  Container,
-  Row,
-  Col,
-  UncontrolledTooltip,
-  UncontrolledCarousel,
-} from "reactstrap";
-import { Link } from "react-router-dom";
-import classnames from "classnames";
+import { Card, CardHeader, Container, Row, Col } from "reactstrap";
 import React from "react";
 
 export default function AbouMe() {
-  const [tabs, setTabs] = React.useState(1);
   return (
     <div>
       <br></br>

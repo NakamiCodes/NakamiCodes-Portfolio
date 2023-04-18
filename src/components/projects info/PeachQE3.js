@@ -1,33 +1,23 @@
 import {
-  Button,
   Card,
   CardHeader,
   CardBody,
-  Label,
-  FormGroup,
-  Form,
-  Input,
-  FormText,
   NavItem,
   NavLink,
   Nav,
-  Table,
   TabContent,
   TabPane,
   Container,
   Row,
   Col,
-  UncontrolledTooltip,
   UncontrolledCarousel,
 } from "reactstrap";
-import PeachQE from "./PeachQE";
 
 import React from "react";
 import classnames from "classnames";
 
 export default function PeachQE3() {
   const [iconTabs, setIconsTabs] = React.useState(1);
-  const [tabs, setTabs] = React.useState(1);
   const carouselItems = [
     {
       src: require("assets/img/PeachQE.jpg"),
