@@ -14,7 +14,6 @@ import {
 } from "reactstrap";
 
 import React from "react";
-import classnames from "classnames";
 
 export default function SleepRX() {
   const [iconTabs, setIconsTabs] = React.useState(1);

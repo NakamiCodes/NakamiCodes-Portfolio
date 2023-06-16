@@ -10,7 +10,6 @@ import {
 } from "reactstrap";
 
 import React from "react";
-import classnames from "classnames";
 
 export default function ShackClone() {
   const [iconTabs, setIconsTabs] = React.useState(1);
