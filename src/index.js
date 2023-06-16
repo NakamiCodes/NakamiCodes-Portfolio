@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import "assets/css/nucleo-icons.css";
 import "assets/scss/blk-design-system-react.scss";
@@ -12,6 +12,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <BrowserRouter>
-    <Route path="/components" render={(props) => <Index {...props} />} />
+    <Routes>
+      <Route path="/components" render={(props) => <Index {...props} />} />
+    </Routes>
   </BrowserRouter>
 );
