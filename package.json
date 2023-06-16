@@ -1,18 +1,18 @@
 {
-  "name": "blk-design-system-react",
+  "name": "Nakami's Portfolio",
   "version": "1.2.1",
-  "description": "React version of BLK Design System by Creative Tim",
+  "description": "Nakami's Portfolio",
   "main": "index.js",
   "author": "Nakami Hope-Felix",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/blk-design-system-react.git"
+    "url": "git+https://github.com/NakamiCodes"
   },
   "bugs": {
-    "url": "https://github.com/creativetimofficial/blk-design-system-react/issues"
+    "url": "https://github.com/NakamiCodes"
   },
-  "homepage": "https://demos.creative-tim.com/blk-design-system-react/#/",
+  "homepage": "https://github.com/components/",
   "keywords": [
     "react",
     "reactjs",

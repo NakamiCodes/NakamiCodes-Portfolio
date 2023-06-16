@@ -53,9 +53,9 @@ export default function SUD() {
                 <Nav className="nav-tabs-info" role="tablist" tabs>
                   <NavItem>
                     <NavLink
-                      className={classnames({
-                        active: iconTabs === 1,
-                      })}
+                      // className={classnames({
+                      //   active: iconTabs === 1,
+                      // })}
                       onClick={(e) => setIconsTabs(1)}
                       href="#pablo"
                     >
@@ -65,9 +65,9 @@ export default function SUD() {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      className={classnames({
-                        active: iconTabs === 2,
-                      })}
+                      // className={classnames({
+                      //   active: iconTabs === 2,
+                      // })}
                       onClick={(e) => setIconsTabs(2)}
                       href="#pablo"
                     >
@@ -77,9 +77,9 @@ export default function SUD() {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      className={classnames({
-                        active: iconTabs === 3,
-                      })}
+                      // className={classnames({
+                      //   active: iconTabs === 3,
+                      // })}
                       onClick={(e) => setIconsTabs(3)}
                       href="#pablo"
                     >

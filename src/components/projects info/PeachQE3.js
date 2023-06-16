@@ -14,7 +14,6 @@ import {
 } from "reactstrap";
 
 import React from "react";
-import classnames from "classnames";
 
 export default function PeachQE3() {
   const [iconTabs, setIconsTabs] = React.useState(1);
@@ -47,9 +46,9 @@ export default function PeachQE3() {
                 <Nav className="nav-tabs-info" role="tablist" tabs>
                   <NavItem>
                     <NavLink
-                      className={classnames({
-                        active: iconTabs === 1,
-                      })}
+                      // className={classnames({
+                      //   active: iconTabs === 1,
+                      // })}
                       onClick={(e) => setIconsTabs(1)}
                       href="#pablo"
                     >
@@ -59,9 +58,9 @@ export default function PeachQE3() {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      className={classnames({
-                        active: iconTabs === 2,
-                      })}
+                      // className={classnames({
+                      //   active: iconTabs === 2,
+                      // })}
                       onClick={(e) => setIconsTabs(2)}
                       href="#pablo"
                     >
@@ -71,9 +70,9 @@ export default function PeachQE3() {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      className={classnames({
-                        active: iconTabs === 3,
-                      })}
+                      // className={classnames({
+                      //   active: iconTabs === 3,
+                      // })}
                       onClick={(e) => setIconsTabs(3)}
                       href="#pablo"
                     >
