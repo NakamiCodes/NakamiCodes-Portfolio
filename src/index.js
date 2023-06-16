@@ -11,9 +11,7 @@ import Index from "views/Index.js";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <BrowserRouter>
-    <Routes>
-      <Route path="/components" render={(props) => <Index {...props} />} />
-    </Routes>
-  </BrowserRouter>
+  <React.StrictMode>
+    <Index />
+  </React.StrictMode>
 );

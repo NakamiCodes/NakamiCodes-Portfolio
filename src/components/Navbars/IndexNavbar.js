@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Button,
@@ -57,10 +57,10 @@ export default function IndexNavbar() {
     <Navbar className={"fixed-top " + color} color-on-scroll="100" expand="lg">
       <Container>
         <div className="navbar-translate">
-          <NavbarBrand to="/" tag={Link} id="navbar-brand">
-            <span>NakamiKodes • </span>
-            Web Devloper
-          </NavbarBrand>
+          {/* <NavbarBrand to="/" tag={Link} id="navbar-brand"> */}
+          <span>NakamiKodes • </span>
+          Web Devloper
+          {/* </NavbarBrand> */}
           {/* <UncontrolledTooltip placement="bottom" target="navbar-brand">
             Designed and Coded by Creative Tim
           </UncontrolledTooltip> */}
