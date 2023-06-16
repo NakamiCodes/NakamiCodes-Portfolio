@@ -31,7 +31,7 @@
 
     .squares{
       animation: move-left-right 1s infinite;
-      @include linear-gradient($primary-states, $primary);
+      @include linear-gradient($primary-states, $warning);
       position: absolute;
       transition: 0.5s ease-out;
       overflow: hidden;
@@ -97,6 +97,62 @@
         right: -5%;
         bottom: 0%;
         opacity: 0.1;
+      }
+      &.square10{
+        animation: move-left-right 4s infinite;
+        height: 300px;
+        width: 300px;
+        opacity: 0.5;
+        left: 3%;
+        top: -21%;
+      }
+      &.square11{
+        animation: move-left-right 4s infinite;
+        height: 300px;
+        width: 300px;
+        opacity: 0.5;
+        left: 3%;
+        top: -21%;
+      }
+      &.square12{
+        animation: move-left-right 4s infinite;
+        height: 300px;
+        width: 300px;
+        opacity: 0.5;
+        left: 3%;
+        top: -21%;
+      }
+      &.square13{
+        animation: move-left-right 4s infinite;
+        height: 300px;
+        width: 300px;
+        opacity: 0.5;
+        left: 3%;
+        top: -21%;
+      }
+      &.square14{
+        animation: move-left-right 4s infinite;
+        height: 300px;
+        width: 300px;
+        opacity: 0.5;
+        left: 3%;
+        top: -21%;
+      }
+      &.square15{
+        animation: move-left-right 4s infinite;
+        height: 300px;
+        width: 300px;
+        opacity: 0.5;
+        left: 3%;
+        top: -21%;
+      }
+      &.square1{
+        animation: move-left-right 4s infinite;
+        height: 300px;
+        width: 300px;
+        opacity: 0.5;
+        left: 3%;
+        top: -21%;
       }
     }
 }
@@ -549,6 +605,76 @@
       top: 400px;
       opacity: .4;
     }
+
+    .square-10 {
+      height: 300px;
+      width: 300px;
+      background-image: url($asset-base-path + "/img/square1.png");
+      top: 80px;
+      left: 100px;
+      opacity: 0.3;
+      animation-duration: 5s;
+  }
+
+  .square-11 {
+      height: 300px;
+      width: 300px;
+      background-image: url($asset-base-path + "/img/square1.png");
+      top: 80px;
+      left: 100px;
+      opacity: 0.3;
+      animation-duration: 5s;
+  }
+
+  .square-12 {
+      height: 300px;
+      width: 300px;
+      background-image: url($asset-base-path + "/img/square1.png");
+      top: 80px;
+      left: 100px;
+      opacity: 0.3;
+      animation-duration: 5s;
+  }
+    
+  .square-13 {
+      height: 300px;
+      width: 300px;
+      background-image: url($asset-base-path + "/img/square1.png");
+      top: 80px;
+      left: 100px;
+      opacity: 0.3;
+      animation-duration: 5s;
+  }
+
+  .square-14 {
+      height: 300px;
+      width: 300px;
+      background-image: url($asset-base-path + "/img/square1.png");
+      top: 80px;
+      left: 100px;
+      opacity: 0.3;
+      animation-duration: 5s;
+  }
+
+  .square-15 {
+      height: 300px;
+      width: 300px;
+      background-image: url($asset-base-path + "/img/square1.png");
+      top: 80px;
+      left: 100px;
+      opacity: 0.3;
+      animation-duration: 5s;
+  }
+
+  .square-16 {
+      height: 300px;
+      width: 300px;
+      background-image: url($asset-base-path + "/img/square1.png");
+      top: 80px;
+      left: 100px;
+      opacity: 0.3;
+      animation-duration: 5s;
+  }
 }
 
 .index-page,

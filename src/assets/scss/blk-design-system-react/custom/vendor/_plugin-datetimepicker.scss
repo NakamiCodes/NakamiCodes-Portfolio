@@ -145,7 +145,7 @@
 }
 .bootstrap-datetimepicker-widget a[data-action="togglePicker"],
 .bootstrap-datetimepicker-widget a[data-action="togglePicker"]:hover {
-    color: $primary;
+    color: $warning;
 }
 .bootstrap-datetimepicker-widget a[data-action]:hover {
   background-color: transparent;
@@ -205,7 +205,7 @@
 .bootstrap-datetimepicker-widget .picker-switch {
   text-align: center;
   border-radius: 3px;
-  color: $primary;
+  color: $warning;
 }
 .bootstrap-datetimepicker-widget .picker-switch::after {
   content: "Toggle Date and Time Screens";
@@ -254,7 +254,7 @@
   font-size: 12px;
   border-radius: 50%;
   text-align: center;
-  color: $primary;
+  color: $warning;
 }
 .bootstrap-datetimepicker-widget table th.prev::after {
   content: "Previous Month";
@@ -264,7 +264,7 @@
 }
 .bootstrap-datetimepicker-widget table th.dow {
   text-align: center;
-  color: $primary;
+  color: $warning;
   padding-bottom: 5px;
   padding-top: 10px;
 }
@@ -318,7 +318,7 @@
   right: 4px;
 }
 .bootstrap-datetimepicker-widget table td.active > div, .bootstrap-datetimepicker-widget table td.active:hover > div {
-  background-color: $primary;
+  background-color: $warning;
   color: $white;
   box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
 }
@@ -342,7 +342,7 @@
 }
 
 .bootstrap-datetimepicker-widget table td span.active {
-  background-color: $primary;
+  background-color: $warning;
   color: #FFFFFF;
 }
 .bootstrap-datetimepicker-widget table td span.old {
@@ -431,14 +431,14 @@ input.datetimepicker[data-color] + .bootstrap-datetimepicker-widget{
 
 
 input.datetimepicker[data-color="orange"] + .bootstrap-datetimepicker-widget{
-    background-color: $primary;
+    background-color: $warning;
 
     table td.active > div,
     table td.active:hover > div,
     button[data-action],
     &.dropdown-menu.top:after,
     &.dropdown-menu.bottom:before{
-        color: $primary;
+        color: $warning;
     }
 }
 

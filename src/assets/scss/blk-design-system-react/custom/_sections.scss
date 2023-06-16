@@ -138,6 +138,76 @@
       opacity: 0.8;
       animation-duration: 9s;
     }
+
+    .square-10 {
+        height: 300px;
+        width: 300px;
+        background-image: url($asset-base-path + "/img/square1.png");
+        top: 80px;
+        left: 100px;
+        opacity: 0.3;
+        animation-duration: 5s;
+    }
+
+    .square-11 {
+        height: 300px;
+        width: 300px;
+        background-image: url($asset-base-path + "/img/square1.png");
+        top: 80px;
+        left: 100px;
+        opacity: 0.3;
+        animation-duration: 5s;
+    }
+
+    .square-12 {
+        height: 300px;
+        width: 300px;
+        background-image: url($asset-base-path + "/img/square1.png");
+        top: 80px;
+        left: 100px;
+        opacity: 0.3;
+        animation-duration: 5s;
+    }
+      
+    .square-13 {
+        height: 300px;
+        width: 300px;
+        background-image: url($asset-base-path + "/img/square1.png");
+        top: 80px;
+        left: 100px;
+        opacity: 0.3;
+        animation-duration: 5s;
+    }
+
+    .square-14 {
+        height: 300px;
+        width: 300px;
+        background-image: url($asset-base-path + "/img/square1.png");
+        top: 80px;
+        left: 100px;
+        opacity: 0.3;
+        animation-duration: 5s;
+    }
+
+    .square-15 {
+        height: 300px;
+        width: 300px;
+        background-image: url($asset-base-path + "/img/square1.png");
+        top: 80px;
+        left: 100px;
+        opacity: 0.3;
+        animation-duration: 5s;
+    }
+
+    .square-16 {
+        height: 300px;
+        width: 300px;
+        background-image: url($asset-base-path + "/img/square1.png");
+        top: 80px;
+        left: 100px;
+        opacity: 0.3;
+        animation-duration: 5s;
+    }
 }
 
 
@@ -535,7 +605,7 @@
   }
 
   .container .col-sm-6 img{
-    border: 1px solid $primary;
+    border: 1px solid $warning;
   }
 }
 

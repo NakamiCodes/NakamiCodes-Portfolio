@@ -88,9 +88,9 @@
 
     .light-badge, .dark-badge{
       margin:0;
-      border: 1px solid $info;
+      border: 1px solid $warning;
       &:hover{
-        border: 1px solid $info;
+        border: 1px solid $warning;
       }
     }
 

@@ -66,7 +66,7 @@
 
     &.progress-primary{
       .progress-bar{
-        @include diagonal-gradient($primary-states, $primary);
+        @include diagonal-gradient($primary-states, $warning);
       }
     }
 

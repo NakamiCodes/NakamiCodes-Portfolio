@@ -34,7 +34,7 @@ a{
     font-weight: $font-weight-light;
     &:hover,
     &:focus{
-        color: $primary;
+        color: $warning;
     }
 }
 h1, .h1 {
@@ -137,11 +137,11 @@ p{
     }
 
     &.blockquote-primary{
-        border-color: $primary;
-        color: $primary;
+        border-color: $warning;
+        color: $warning;
 
         small{
-            color: $primary;
+            color: $warning;
         }
     }
 

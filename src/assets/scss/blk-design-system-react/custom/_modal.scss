@@ -41,7 +41,7 @@
         box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.3);
 
         i{
-            color: $primary;
+            color: $warning;
             font-size: 21px;
             margin-top: -10px;
         }
@@ -53,7 +53,7 @@
         }
 
         &.modal-profile-primary{
-            background-color: $primary;
+            background-color: $warning;
         }
 
         &.modal-profile-danger{
@@ -131,7 +131,7 @@
     }
 
     &.modal-primary{
-        @include modal-colors($primary, $white);
+        @include modal-colors($warning, $white);
     }
 
     &.modal-danger{

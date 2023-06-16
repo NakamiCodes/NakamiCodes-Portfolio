@@ -27,7 +27,7 @@ hr {
   margin-left: 0;
 
   &.line-primary {
-    background-color: $primary;
+    background-color: $warning;
   }
   &.line-info {
     background-color: $info;
@@ -64,7 +64,7 @@ hr {
 
 .icon {
   &.icon-primary {
-    color: $primary;
+    color: $warning;
     }
   &.icon-info {
     color: $info;

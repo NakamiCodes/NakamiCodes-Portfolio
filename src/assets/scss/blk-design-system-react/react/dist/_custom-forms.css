@@ -1,0 +1,22 @@
+.custom-switch .custom-control-label {
+  vertical-align: middle;
+}
+.custom-switch .custom-control-label::before {
+  height: 22px;
+  width: 45px;
+  border: none;
+  background-position: center center;
+  background-size: cover;
+}
+.custom-switch .custom-control-label::after {
+  height: 18px;
+  width: 18px;
+  background-color: rgba(156, 156, 156, 0.9);
+  transition: all 0.25s ease-out;
+}
+.custom-switch:hover .custom-control-label::after {
+  width: 23px;
+}
+.custom-switch:hover .custom-control-input:checked ~ .custom-control-label::after {
+  margin-left: -5px;
+}
