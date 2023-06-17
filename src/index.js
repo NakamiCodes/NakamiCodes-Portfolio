@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "/client";
+import ReactDOM from "react-dom/client";
 
 import "assets/css/nucleo-icons.css";
 import "assets/scss/blk-design-system-react.scss";
