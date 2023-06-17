@@ -5,7 +5,6 @@ import {
   Button,
   Collapse,
   UncontrolledDropdown,
-  NavbarBrand,
   Navbar,
   NavItem,
   NavLink,

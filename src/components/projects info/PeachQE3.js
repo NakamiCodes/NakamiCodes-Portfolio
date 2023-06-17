@@ -19,12 +19,12 @@ export default function PeachQE3() {
   const [iconTabs, setIconsTabs] = React.useState(1);
   const carouselItems = [
     {
-      src: require("assets/img/PeachQE.jpg"),
+      src: require("../../assets/img/PeachQE.jpg"),
       altText: "Slide 1",
       caption: "",
     },
     {
-      src: require("assets/img/PeachQE2.jpg"),
+      src: require("../../assets/img/PeachQE2.jpg"),
       altText: "Slide 2",
       caption: "",
     },

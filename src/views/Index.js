@@ -1,11 +1,11 @@
 import React from "react";
 
 // core components
-import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import PageHeader from "components/PageHeader/PageHeader.js";
+import IndexNavbar from "../components/Navbars/IndexNavbar.js";
+import PageHeader from "../components/PageHeader/PageHeader.js";
 
 // sections for this page/view
-import Signup from "views/IndexSections/Signup.js";
+import Signup from "./IndexSections/Signup.js";
 import Projects from "./IndexSections/Projetcs";
 
 export default function Index() {
